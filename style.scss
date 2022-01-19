@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, pink, yellow);
+  .weather-app {
+    width: 100%;
+    max-width: 300px;
+    height: 500px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    form > input {
+      height: 50px;
+      padding: 5px;
+      border: 1px solid gray;
+      border-radius: 2px;
+      font-size: 1em;
+    }
+    form > button {
+      height: 50px;
+      background-color: steelblue;
+    }
+  }
+}
