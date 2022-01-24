@@ -15,11 +15,14 @@
   background: linear-gradient(to right, pink, yellow);
 }
 .container .weather-app {
+  background: url(https://images.unsplash.com/photo-1503327431567-3ab5e6e79140?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   max-width: 300px;
   height: 500px;
   padding: 10px;
-  background: #fff;
   border-radius: 20px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -32,12 +35,45 @@
   height: 50px;
   padding: 5px;
   border: 1px solid gray;
-  border-radius: 2px;
+  border-radius: 5px;
   font-size: 1em;
+}
+.container .weather-app form > input:focus {
+  outline: none;
 }
 .container .weather-app form > button {
   height: 50px;
+  width: 50px;
   background-color: steelblue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.container .weather-app .weather-location {
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+.container .weather-app .display-temp {
+  color: #ebeb16;
+  font-size: 2.5em;
+}
+.container .weather-app .weather-details {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+.container .weather-app .weather-details p {
+  margin: 5px;
+  font-size: 1em;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
