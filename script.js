@@ -2,7 +2,7 @@ const api = {
   url: 'http://api.openweathermap.org/data/2.5/',
   key: 'eca6453c758a17a632ceaf31557b0cf8',
 };
-// http://api.openweathermap.org/data/2.5/weather?q=mumbai&units=metric&APPID=eca6453c758a17a632ceaf31557b0cf8
+
 // Search
 let searchInput = document.getElementById('search-input');
 let submitSearch = document.querySelector('form');
@@ -15,7 +15,6 @@ submitSearch.addEventListener('submit', (event) => {
   fetch(`${api.url}weather?q=${query}&units=metric&APPID=${api.key}`)
     .then((response) => response.json())
     .then((result) => {
-      // console.log(result);
       weather = result;
 
       // Populate Location Data
