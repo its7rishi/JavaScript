@@ -1,0 +1,15 @@
+[33mcommit ab5cf2dd38af1fc91f54f04743d890a1de1737e0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Saptarshi Majumdar <saptarshi.maj@yahoo.com>
+Date:   Thu Jan 20 20:49:26 2022 +0530
+
+    Added features in js
+    
+    Added fix for error handling and blank input cases
+
+[33mcommit df5cc032ec8b1a487710c21bf469ad42799a801f[m
+Author: Saptarshi Majumdar <saptarshi.maj@yahoo.com>
+Date:   Wed Jan 19 23:01:17 2022 +0530
+
+    Created Weather App
+    
+    created weather app. updated html, js and scss files
